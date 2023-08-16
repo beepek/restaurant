@@ -8,7 +8,7 @@ img {
     font-size: 16px;
     border: none;
     border-radius: 5px;
-    background-color: #007bff; /* Button color */
+    background-color: #007bff; 
     color: white;
     text-align: center;
     text-decoration: none;
@@ -17,10 +17,9 @@ img {
   }
   
   .button:hover {
-    background-color: #0056b3; /* Button color on hover */
+    background-color: #0056b3; 
   }
   
-  /* Styling specific links as buttons */
   .home-button {
     margin-right: 10px;
   }
@@ -39,23 +38,25 @@ img {
   }
   
   nav li {
-    margin-right: 10px; /* Add spacing between buttons */
+    margin-right: 10px; 
   }
   .logo {
-    width: 100px; /* Adjust the width as needed */
-    height: auto; /* This ensures the aspect ratio is maintained */
-    margin-right: 10px; /* Add spacing between the logo and heading */
+    width: 100px; 
+    height: auto; 
+    margin-right: 10px; 
   }
   .header {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center horizontally */
-    margin-bottom: 20px; /* Add spacing between header and navigation */
+    align-items: center; 
+    margin-bottom: 20px; 
   }
   
   .logo {
-    width: 100px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 150px; 
+    height: auto; 
+    transform: scale(1.5);
+    margin-bottom: 10px;
   }
   .about-section {
     text-align: center;
@@ -66,4 +67,10 @@ img {
   
   body {
     font-family: 'Indie Flower', cursive;
-  } 
+    font-size: 1.5em;
+  }
+  h1, h2, h3 {
+    font-size: 1.5em; 
+    text-align: center;
+  }
+   
