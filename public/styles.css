@@ -1,0 +1,34 @@
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Button color */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Button color on hover */
+  }
+  
+  /* Styling specific links as buttons */
+  .home-button {
+    margin-right: 10px;
+  }
+  
+  .menu-button {
+    margin-right: 10px;
+  }
+  
+  .contact-button {
+    margin-right: 10px;
+  }  
