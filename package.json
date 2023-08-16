@@ -4,7 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node dist/server.js",
+    "postinstall": "tsc"
   },
   "keywords": [],
   "author": "",
