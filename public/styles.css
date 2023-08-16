@@ -1,6 +1,7 @@
 img {
     max-width: 100%;
     height: auto;
+    margin-bottom: 10px;
   }
   .button {
     display: inline-block;
@@ -40,11 +41,6 @@ img {
   nav li {
     margin-right: 10px; 
   }
-  .logo {
-    width: 100px; 
-    height: auto; 
-    margin-right: 10px; 
-  }
   .header {
     display: flex;
     flex-direction: column;
@@ -56,7 +52,8 @@ img {
     width: 150px; 
     height: auto; 
     transform: scale(1.5);
-    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
   }
   .about-section {
     text-align: center;
