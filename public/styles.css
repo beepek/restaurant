@@ -32,3 +32,35 @@ img {
   .contact-button {
     margin-right: 10px;
   }  
+  nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 10px; /* Add spacing between buttons */
+  }
+  .logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* This ensures the aspect ratio is maintained */
+    margin-right: 10px; /* Add spacing between the logo and heading */
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    margin-bottom: 20px; /* Add spacing between header and navigation */
+  }
+  
+  .logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .about-section {
+    text-align: center;
+  }
+  .get-section {
+    text-align: center;
+  }
+  
