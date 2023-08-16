@@ -4,6 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Menu - Restaurant Name</title>
+  <style>
+    .menu-item {
+      display: flex;
+      align-items: center;
+      margin: 20px 0;
+    }
+    
+    .menu-item img {
+      width: 150px;
+      height: 150px;
+      margin-right: 20px;
+    }
+    
+    .menu-item-info {
+      flex: 1;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -20,7 +37,24 @@
   <main>
     <section>
       <h2>Our Delicious Dishes</h2>
-      <!-- Add your menu items here -->
+      <div class="menu-item">
+        <img src="https://i.imgur.com/j8l6F1v.jpg" alt="Menu Item">
+        <div class="menu-item-info">
+          <h3>The Standard Burger</h3>
+          <p>Description of the menu item.</p>
+          <p>Price: $X.XX</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://i.imgur.com/NLF3XoC.jpg" alt="Menu Item">
+        <div class="menu-item-info">
+          <h3>Breakfast Sandwich</h3>
+          <p>Description of the menu item.</p>
+          <p>Price: $X.XX</p>
+        </div>
+      </div>
+      
+      <!-- Add more menu items similarly -->
     </section>
   </main>
 
